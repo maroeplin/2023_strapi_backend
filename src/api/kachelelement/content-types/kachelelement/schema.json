@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kachelelemente",
+  "info": {
+    "singularName": "kachelelement",
+    "pluralName": "kachelelemente",
+    "displayName": "Kachelelemente (Startseite)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titel": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "coverbild": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

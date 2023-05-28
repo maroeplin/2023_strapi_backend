@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactbanners",
+  "info": {
+    "singularName": "contactbanner",
+    "pluralName": "contactbanners",
+    "displayName": "Kontaktbanner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titel": {
+      "type": "string",
+      "required": true
+    },
+    "beschreibung": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "telefon": {
+      "type": "string"
+    }
+  }
+}

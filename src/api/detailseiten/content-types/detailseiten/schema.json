@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detailseitens",
+  "info": {
+    "singularName": "detailseiten",
+    "pluralName": "detailseitens",
+    "displayName": "Detailseiten",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "mengentext": {
+      "type": "richtext"
+    },
+    "slider": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titelbild": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

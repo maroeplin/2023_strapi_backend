@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero / Bühne (Startseite)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titel": {
+      "type": "string",
+      "default": "headline",
+      "required": true,
+      "minLength": 4
+    },
+    "titelbild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "beschreibung": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "socialmedias",
+  "info": {
+    "singularName": "socialmedia",
+    "pluralName": "socialmedias",
+    "displayName": "Social Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}
